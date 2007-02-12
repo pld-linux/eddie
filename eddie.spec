@@ -2,7 +2,7 @@
 # - finish install
 # - init.d script
 Summary:	A system monitoring, security and performance analysis agent
-Summary(pl):	Agent monitorowania systemu oraz analizy bezpieczeñstwa i wydajno¶ci
+Summary(pl.UTF-8):   Agent monitorowania systemu oraz analizy bezpieczeÅ„stwa i wydajnoÅ›ci
 Name:		eddie
 Version:	0.35
 Release:	0.1
@@ -34,25 +34,25 @@ Monitoring rules are just like Python expressions and can be as simple
 or as complex as needed. Advanced alert control functionality such as
 exponential back-off and dependencies are also standard.
 
-%description -l pl
-EDDIE Tool mo¿e wykonywaæ wszystkie podstawowe testy monitoruj±ce
-system, w tym: systemu plików, procesów, obci±¿enia systemu,
-konfiguracji sieci. Mo¿e tak¿e wykonywaæ zadania zwi±zane z
+%description -l pl.UTF-8
+EDDIE Tool moÅ¼e wykonywaÄ‡ wszystkie podstawowe testy monitorujÄ…ce
+system, w tym: systemu plikÃ³w, procesÃ³w, obciÄ…Å¼enia systemu,
+konfiguracji sieci. MoÅ¼e takÅ¼e wykonywaÄ‡ zadania zwiÄ…zane z
 monitorowaniem sieci, takie jak: sprawdzanie pinga, sprawdzanie HTTP,
-testy POP3, zapytania SMTP, testy uwierzytelnienia RADIUS i w³asne
-sposoby sprawdzania portów TCP. Ponadto niektóre testy rozci±gaj± siê
-na monitorowanie bezpieczeñstwa: obserwowanie plików pod k±tem zmian i
-skanowanie plików logów.
+testy POP3, zapytania SMTP, testy uwierzytelnienia RADIUS i wÅ‚asne
+sposoby sprawdzania portÃ³w TCP. Ponadto niektÃ³re testy rozciÄ…gajÄ… siÄ™
+na monitorowanie bezpieczeÅ„stwa: obserwowanie plikÃ³w pod kÄ…tem zmian i
+skanowanie plikÃ³w logÃ³w.
 
-EDDIE Tool mo¿e tak¿e wysy³aæ dowolne zbiorcze statystyki do plików
-RRD w celu graficznego wy¶wietlenia przez dowolne standardowe
-narzêdzie RRD. Nie ma potrzeby uruchamiania wielu agentów do
+EDDIE Tool moÅ¼e takÅ¼e wysyÅ‚aÄ‡ dowolne zbiorcze statystyki do plikÃ³w
+RRD w celu graficznego wyÅ›wietlenia przez dowolne standardowe
+narzÄ™dzie RRD. Nie ma potrzeby uruchamiania wielu agentÃ³w do
 monitorowania i zbierania danych.
 
-Regu³y monitorowania to zwyk³e pythonowe wyra¿enia, mog± byæ proste
-lub z³o¿one w zale¿no¶ci od potrzeb. Dostêpna jest tak¿e zaawansowana
-funkcjonalno¶æ kontroli alarmów, taka jak wyk³adnicze wycofywanie czy
-zale¿no¶ci.
+ReguÅ‚y monitorowania to zwykÅ‚e pythonowe wyraÅ¼enia, mogÄ… byÄ‡ proste
+lub zÅ‚oÅ¼one w zaleÅ¼noÅ›ci od potrzeb. DostÄ™pna jest takÅ¼e zaawansowana
+funkcjonalnoÅ›Ä‡ kontroli alarmÃ³w, taka jak wykÅ‚adnicze wycofywanie czy
+zaleÅ¼noÅ›ci.
 
 %prep
 %setup -q
