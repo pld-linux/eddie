@@ -2,7 +2,7 @@
 # - finish install
 # - init.d script
 Summary:	A system monitoring, security and performance analysis agent
-Summary(pl.UTF-8):   Agent monitorowania systemu oraz analizy bezpieczeństwa i wydajności
+Summary(pl.UTF-8):	Agent monitorowania systemu oraz analizy bezpieczeństwa i wydajności
 Name:		eddie
 Version:	0.35
 Release:	0.1
